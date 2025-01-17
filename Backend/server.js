@@ -24,21 +24,7 @@ app.use(cors());
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true })); 
 
-const connection = mysql.createConnection({
-  host: 'localhost',      // Your MySQL server address (use 'localhost' for local)
-  user: 'root',           // Your MySQL username
-  password: '',           // Your MySQL password (empty if there's no password)
-  database: 'inventory'  // Your database name
-});
 
-// Connect to the MySQL server
-connection.connect((err) => {
-  if (err) {
-    console.error('Error connecting to MySQL:', err);
-    return;
-  }
-  console.log('Connected to MySQL!');
-});
 // Routes
 app.use('/api', routes);
 
