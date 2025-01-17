@@ -1,0 +1,64 @@
+.login-container {
+    display: flex;
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.form-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('https://media.mktg.workday.com/is/image/workday/screenshot-inventory-dashboard-desktop-13?fmt=png-alpha&wid=1800');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    padding: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.testimonial {
+    color: #fff;
+    max-width: 70%;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.testimonial h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.login-link {
+    text-decoration: underline;
+    color: darkviolet;
+    cursor: pointer;
+}
+
+.login-link:hover {
+    color:violet;
+}
+
+.btn-primary {
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+}
+
+.btn-primary:hover {
+    background-color: #6f22b3;
+    border-color: #6f22b3;
+}
+.container {
+    max-width: 80%;
+    padding: 3%;
+}

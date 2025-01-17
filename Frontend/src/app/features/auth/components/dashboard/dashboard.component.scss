@@ -1,0 +1,304 @@
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu {
+    min-width: 200px;
+}
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-toggle-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+
+.custom-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.custom-dropdown-menu.show {
+    display: block;
+}
+
+.custom-dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.custom-dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.custom-dropdown-menu li a:hover {
+    background: #f5f5f5;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.da{
+    background-color: darkviolet;
+    color: white;
+}
+/* Violet Buttons */
+.btn-violet {
+    background-color: #8a2be2;
+    /* Violet */
+    color: #fff;
+    border-color: #8a2be2;
+}
+
+.btn-violet:hover {
+    background-color: #7a26cc;
+    /* Darker Violet */
+    border-color: #7a26cc;
+}
+
+.btn-outline-violet {
+    background-color: transparent;
+    color: #8a2be2;
+    /* Violet */
+    border-color: #8a2be2;
+}
+
+.btn-outline-violet:hover {
+    background-color: #8a2be2;
+    color: #fff;
+}
+/* Add this to your styles.scss or a relevant CSS file */
+.modal-fade {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 1050;
+}
+
+.modal-content {
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    font-size: 14px;
+    /* Decrease the size of the letters */
+}
+
+.modal-header .close {
+    font-size: 20px;
+}
+
+.modal-header .btn-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu {
+    min-width: 200px;
+}
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-toggle-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+
+.custom-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.custom-dropdown-menu.show {
+    display: block;
+}
+
+.custom-dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.custom-dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.custom-dropdown-menu li a:hover {
+    background: #f5f5f5;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.da{
+    background-color: darkviolet;
+    color: white;
+}
+/* Violet Buttons */
+.btn-violet {
+    background-color: #8a2be2;
+    /* Violet */
+    color: #fff;
+    border-color: #8a2be2;
+}
+
+.btn-violet:hover {
+    background-color: #7a26cc;
+    /* Darker Violet */
+    border-color: #7a26cc;
+}
+
+.btn-outline-violet {
+    background-color: transparent;
+    color: #8a2be2;
+    /* Violet */
+    border-color: #8a2be2;
+}
+
+.btn-outline-violet:hover {
+    background-color: #8a2be2;
+    color: #fff;
+}
+/* Add this to your styles.scss or a relevant CSS file */
+.modal-fade {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 1050;
+}
+
+.modal-content {
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    font-size: 14px;
+    /* Decrease the size of the letters */
+}
+
+.modal-header .close {
+    font-size: 20px;
+}
+
+.modal-header .btn-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+}

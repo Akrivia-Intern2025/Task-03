@@ -1,0 +1,54 @@
+<div class="row login-container">
+    <!-- Form Section -->
+    <div class="col-md-5 form-section">
+        <div class="container">
+            <!-- Header (Logo and Title) -->
+            <div class="header">
+                <!-- <img src="assets/images/logo.png" alt="logo" class="logo" /> -->
+                <h2 class="title">Welcome back!</h2>
+            </div>
+            <!-- Login Form -->
+            <div class="form-wrapper">
+                <h3 class="mb-3">Log in</h3>
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email/Username *</label>
+                        <input type="email" id="email" class="form-control" formControlName="email"
+                            placeholder="Enter your email or Username " />
+                        <small *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched"
+                            class="text-danger">
+                            Email is required.
+                        </small>
+                    </div>
+                    <!-- Password -->
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password*</label>
+                        <input type="password" id="password" class="form-control" formControlName="password"
+                            placeholder="Enter your password" />
+                        <small *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched"
+                            class="text-danger">
+                            Password is required.
+                        </small>
+                    </div>
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary w-100 mt-3" [disabled]="loginForm.invalid">
+                        Sign in
+                    </button>
+                </form>
+                <!-- Sign Up Redirect -->
+                <div class="text-center mt-3">
+                    <p class="mt-2">
+                        Don’t have an account? <a (click)="redirectToRegister()" class="login-link">Sign up</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="col-md-7 image-section">
+        <div class="testimonial">
+        </div>
+    </div>
+</div>
